@@ -1,0 +1,56 @@
+.Weather{
+    border: 1px solid #A684F5;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+   
+}
+
+
+.Weather ul{
+  list-style: none;
+ 
+}
+
+.Weather img{
+ height: 64px;
+margin-right:10px;
+}
+.Weather temperature{
+    font-weight: bold;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.Weather units{
+font-size: 16px;
+font-weight: 400px;
+position: relative;
+top:-32px;
+margin-left:5px;
+}
+
+.Weather info{
+text-align: left;
+padding: 0px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+
+}
+
+.conditions{
+    text-align: left;
+   
+}
+
+.Weather h1 {
+margin: 20px 0px 0px 0px;
+text-align:left;
+color: teal;
+}
+.col-6{
+display: inline-block;
+}
+
+

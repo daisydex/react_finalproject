@@ -1,14 +1,19 @@
-
+import React from "react";
+import Weather from "./Weather";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-    <h1>Weather App </h1>
+      <div className="container">
+    
+    <Weather />
+    
     <footer>
       This project was coded by Daisy and is {""}
-    <a href="https://github.com/daisydex/react_finalproject" target="_blank"> open-sourced on GitHub </a>
-    </footer>
+    <a href="https://github.com/daisydex/react_finalproject" target="_blank" rel="noreferrer"> open-sourced on GitHub </a>
+  </footer>
+   </div> 
     </div>
   );
 }
