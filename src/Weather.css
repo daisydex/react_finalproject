@@ -7,50 +7,53 @@
     font-weight: lighter;
    
 }
-
-
-.Weather ul{
-  list-style: none;
- 
-}
-
-.Weather img{
- height: 64px;
-margin-right:10px;
-}
-.Weather temperature{
-    font-weight: bold;
-    font-size: 64px;
-    font-weight: 500;
-}
-
-.Weather units{
-font-size: 16px;
-font-weight: 400px;
-position: relative;
-top:-32px;
-margin-left:5px;
+.Weather ul {
+list-style: none;
+padding: 0px 0px 0px 0px;
 }
 
 .Weather info{
 text-align: left;
 padding: 0px 0px 0px 0px;
 margin:0px 0px 0px 0px;
-
+list-style: none;
+padding: 0px 0px 0px 0px;
 }
 
-.conditions{
-    text-align: left;
-   
+
+.Weather img{
+height: 64px;
+margin-right:10px;
 }
+
+.Weather temperature{
+    font-weight: bolder;
+    font-size: 64px;
+    font-weight: 500;   
+}
+
+.Weather units{
+font-size: 16px;
+font-weight: 600px;
+position: relative;
+top:-32px;
+margin-left:5px;
+}
+
 
 .Weather h1 {
 margin: 20px 0px 0px 0px;
 text-align:left;
 color: teal;
 }
-.col-6{
-display: inline-block;
+
+.form-control{
+display: inline;
+margin: 0px 0px 10px 0px;
+
 }
 
+.col-9 {
+margin: 5px 0px 10px 5px;
+}
 
