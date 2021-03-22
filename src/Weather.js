@@ -20,7 +20,7 @@ export default function Weather(props){
          wind:response.data.wind.speed,
          humidity:response.data.main.humidity,
          description:response.data.weather[0].description,
-         iconURL:`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+         icon:response.data.weather[0].icon
            
         });
        
@@ -45,7 +45,7 @@ setCity(event.target.value);
     if (weatherData.ready) {
         return (
         <div className="Weather"> 
-        <div className="col-9">
+        <div className="col-10">
             <form onSubmit={handleSubmit}>
         <input 
         type="search" 

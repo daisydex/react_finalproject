@@ -21,10 +21,6 @@ padding: 0px 0px 0px 0px;
 }
 
 
-.Weather img{
-height: 64px;
-margin-right:10px;
-}
 
 .Weather temperature{
     font-weight: bolder;
@@ -53,7 +49,11 @@ margin: 0px 0px 10px 0px;
 
 }
 
-.col-9 {
+.col-10 {
 margin: 5px 0px 10px 5px;
+}
+
+.col-6{
+ 
 }
 
