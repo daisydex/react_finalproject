@@ -3,7 +3,7 @@
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
     margin: 20px 20px 20px 10px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: lighter;
    
 }
@@ -19,23 +19,6 @@ margin:0px 0px 0px 0px;
 list-style: none;
 padding: 0px 0px 0px 0px;
 }
-
-
-
-.Weather temperature{
-    font-weight: bolder;
-    font-size: 64px;
-    font-weight: 500;   
-}
-
-.Weather units{
-font-size: 16px;
-font-weight: 600px;
-position: relative;
-top:-32px;
-margin-left:5px;
-}
-
 
 .Weather h1 {
 margin: 20px 0px 0px 0px;
@@ -53,7 +36,23 @@ margin: 0px 0px 10px 0px;
 margin: 5px 0px 10px 5px;
 }
 
-.col-6{
- 
+.clearfix{
+ display: inline-block;
+ margin-left:20px;
 }
 
+.temperature{
+font-family:'Courier New', Courier, monospace;
+ font-size: 40px;
+ font-weight: 600;
+ color:teal;
+
+}
+
+
+.unit {
+ font-family:'Courier New', Courier, monospace;
+ font-size: 20px;
+ font-weight: 600;
+ top:-80px;
+}
