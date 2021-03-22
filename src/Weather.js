@@ -20,7 +20,7 @@ export default function Weather(props){
          wind:response.data.wind.speed,
          humidity:response.data.main.humidity,
          description:response.data.weather[0].description,
-         iconURL:'https://ssl.gstatic.com/onebox/weather/64/sunny.png'
+         iconURL:`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
            
         });
        
