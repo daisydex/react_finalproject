@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Weather.css";
+import WeatherForecast from "./WeatherForecast";
 
 import WeatherInfo from "./WeatherInfo";
 
@@ -58,13 +59,13 @@ setCity(event.target.value);
         <input 
         type="submit" 
         value="Search" 
-        className="btn btn-outline-info w-100"
+        className="btn btn-outline-light w-100"
         />
          </form>
          
         </div>
         <WeatherInfo data={weatherData}/>
-       
+        <WeatherForecast city={weatherData.city}/>
             
     </div>
     );
