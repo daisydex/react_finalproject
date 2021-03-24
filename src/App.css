@@ -1,14 +1,14 @@
 .App{
-   max-width: 600px;
-
-   
-
+max-width: 600px;
+margin:0 auto;
+margin-top: 50px;
 }
 
 .App footer{
   font-size: 11px;
   text-align: center;
   margin: 5px 0;
+  color: aliceblue;
 
 }
 

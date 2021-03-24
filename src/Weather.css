@@ -1,10 +1,10 @@
 .Weather{
-    border: 1px solid whitesmoke;
+    border: 1px solid rgb(167, 136, 192);
     border-radius: 20px;
-    background-color: rgb(47,19,107);
-background-image: linear-gradient(0deg, rgba(47,19,107,1) 0%, rgba(87,26,159,1) 13%, rgba(87,42,148,1) 23%, rgba(79,52,144,1) 36%, rgba(88,107,185,1) 65%, rgba(47,231,228,0.9502467105263158) 100%);
+    background-color: rgb(80,7,57);
+background-image: linear-gradient(0deg, rgba(80,7,57,0.6060458096590908) 0%, rgba(158,19,128,0.60888671875) 40%, rgba(176,56,51,0.61) 81%, rgba(222,109,104,1) 100%);
     padding: 30px 30px 40px 30px;
-    margin: 20px 20px 20px 10px;
+    margin: 20px 20px 20px 20px;
     font-family: Raleway;
     font-weight: lighter;
    
