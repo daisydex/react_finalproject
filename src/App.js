@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
     
-    <Weather defaultCity="New York"/>
+    <Weather defaultCity="Milan"/>
     
     <footer>
       This project was coded by Daisy and is {""}
